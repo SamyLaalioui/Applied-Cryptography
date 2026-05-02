@@ -11,7 +11,7 @@ A collection of cryptographic algorithm implementations built during Applied Cry
 | [Diffie-Hellman Key Exchange](#diffie-hellman-key-exchange) | DH | Java | Key exchange, discrete logarithm, primitive roots |
 | [AES Encryption App](#aes-encryption-app) | AES-256-CBC | Java | Symmetric encryption, PBKDF2, IV, key derivation |
 | [DES Encryption + Timing Analysis](#des-encryption--timing-analysis) | DES | Java | Symmetric cipher, performance benchmarking |
-| [Euclidean GCD (Embedded)](#euclidean-gcd--embedded-hardware) | Euclid's Algorithm | C | Number theory, Raspberry Pi Pico, GPIO |
+
  
 ---
  
