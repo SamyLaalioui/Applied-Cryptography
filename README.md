@@ -117,27 +117,6 @@ java DESTestApp
  
 ---
  
-## ⚙️ Euclidean GCD — Embedded Hardware
- 
-**File:** `EuclidGCDProject.c`
- 
-Implementation of Euclid's subtraction-based GCD algorithm running on a **Raspberry Pi Pico** microcontroller, with results displayed on physical GPIO-connected LEDs in binary.
- 
-### What It Does
-- Computes GCD of two integers using Euclid's classic subtraction algorithm
-- Outputs result to serial console via `stdio`
-- **Bonus:** Displays GCD result in binary using 4 LEDs connected to GPIO pins 26–29
-### Key Concepts Demonstrated
-- **Euclid's Algorithm** — the mathematical foundation of RSA key generation and modular inverse computation
-- **Embedded C / Raspberry Pi Pico SDK** — real hardware programming with `pico/stdlib.h`
-- **Binary representation on GPIO** — bit manipulation to drive physical LEDs
-### Hardware Setup
-```
-GPIO 26 → LED 0 (LSB)
-GPIO 27 → LED 1
-GPIO 28 → LED 2
-GPIO 29 → LED 3 (MSB)
-```
  
 ### Why This Matters for Cryptography
 Euclid's algorithm is the backbone of RSA — it's used to compute modular inverses (`d = e⁻¹ mod φ(n)`) during key generation. Understanding it at the hardware level deepens the intuition for why RSA works.
